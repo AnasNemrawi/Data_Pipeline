@@ -4,6 +4,7 @@ Requirements:
 1. Describe the architecture.
 2. Please clearly demonstrate the steps you have taken, the libraries and modules
 implemented and any data manipulation in the task.
+ 
 
 
 1. architecture :

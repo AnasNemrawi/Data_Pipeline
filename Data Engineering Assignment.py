@@ -4,7 +4,8 @@ from datetime import datetime, timedelta, timezone
 import matplotlib.pyplot as plt
 import schedule
 import time
-
+ 
+ 
 print('-----------the code takes some time to run and get all the data please wait ---------')
 
 api_key = "a3f87a3a568b4db5a94e3cba05fe1772"
