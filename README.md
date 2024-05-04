@@ -11,13 +11,13 @@ Requirements:
  
 3 . architecture :
 
-    A. Uses Python to extract data from Open Exchange Rates API using the "requests" library.
+    A. Usesd Python to extract data from Open Exchange Rates API using the "requests" library.
     
-    B. Using "pandas" transformed the data from the JSON file into a data frame then added a date column and stored data in an Excel file for data tracking and further manipulation.
+    B. Used "pandas" transformed the data from the JSON file into a data frame then added a date column and stored data in an Excel file for data tracking and further manipulation.
     
-    C. display the data into a plot using the "matplotlib" library.
+    C. displayed the data into a plot using the "matplotlib" library.
     
-    D. uses the librarys (schedule and time) to run the code and update the data.  
+    D. used the librarys (schedule and time) to run the code and update the data.  
 
 
 4 . libraries and modules implemented :
