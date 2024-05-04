@@ -1,23 +1,26 @@
+Q: Using ( https://docs.openexchangerates.org/ ) provide a data pipeline that pulls the data from the API. Display the change of USD vs SAR in the last 3 months. This data must run and update on a daily
+basis.
+
 note: the code might take 2-3 minutes to run because in the URL to use ( started to end ) to describe the period you want to display (3 months), you must have a paid account so I made a for loop to hit the route 90 times to retrieve all data 
 
 Requirements:
-1. Describe the architecture.
-2. Please clearly demonstrate the steps you have taken, the libraries and modules
-implemented and any data manipulation in the task.
+
+1 . Describe the architecture.
+
+2 . Please clearly demonstrate the steps you have taken, the libraries and modules implemented and any data manipulation in the task.
  
+3 . architecture :
+
+    A. Uses Python to extract data from Open Exchange Rates API using the "requests" library.
+    
+    B. Using "pandas" transformed the data from the JSON file into a data frame then added a date column and stored data in an Excel file for data tracking and further manipulation.
+    
+    C. display the data into a plot using the "matplotlib" library.
+    
+    D. uses the librarys (schedule and time) to run the code and update the data.  
 
 
-1. architecture :
-A. Uses Python to extract data from Open Exchange Rates API using the "requests" library.
-
-B. Using "pandas" transformed the data from the JSON file into a data frame then added a date column and stored data in an Excel file for data tracking and further manipulation.
-
-C. display the data into a plot using the "matplotlib" library.
-
-D. uses the librarys (schedule and time) to run the code and update the data.  
-
-
-2. libraries and modules implemented :
+4 . libraries and modules implemented :
 - "requests"
 - "pandas" 
 - from "datetime" library used models ( datetime, timedelta, timezone ) 
